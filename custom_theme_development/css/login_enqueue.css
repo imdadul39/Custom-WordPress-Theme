@@ -1,0 +1,55 @@
+body.login {
+    display: flex;
+    align-items: center;
+}
+body.login #login {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+body.login #loginform {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    color: #000000;
+}
+
+.login .button.wp-hide-pw .dashicons {
+    color: #ea1a70;
+
+}
+#login form p.submit {
+	display: block;
+}
+#login form p.submit input {
+	display: block;
+    width: 100%;
+    transition: all ease 0.5s;
+    padding: 4px 0;
+    font-size: 15px;
+}
+
+.login #backtoblog, .login #nav {
+	display: inline-block;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+.login #backtoblog {
+    float: right;
+}
+.login #backtoblog a, .login #nav a {
+    color: #ea1a70;
+
+}
+.login #backtoblog a {
+    background-color: blue;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+.login #backtoblog a:hover {
+    color: #fff;
+    background: #ea1a70;
+}
